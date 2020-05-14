@@ -1,0 +1,19 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/*"],
+  "strict": true,
+  "module": "ESNext",
+  "moduleResolution": "node",
+  "resolveJsonModule": true,
+  "allowSyntheticDefaultImports": true,
+  "noImplicitThis": true,
+  "noUnusedLocals": true,
+  "noUnusedParameters": true,
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "types": ["svelte", "node", "@sapper"],
+    "typeRoots": ["typings"]
+  }
+}
