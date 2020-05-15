@@ -2,6 +2,7 @@
   import Intro from "../components/Intro.svelte";
   import ML from "../components/ML.svelte";
   import BokehCharts from "../components/BokehCharts.svelte";
+  import Heatmap from "../components/Heatmap.svelte";
 </script>
 
 <style>
@@ -48,7 +49,13 @@
 <h2>Interactive plots</h2>
 <BokehCharts />
 
-<h2>Try to predict accidents</h2>
+<h2>Heatmaps</h2>
+<Heatmap
+  title="Crashes compare too schools"
+  description=""
+  src="https://rawcdn.githack.com/alexdor/dtu-data-vis-car-accidents/a36b87382ac17220dbdfbd4efd549e67885f1798/src/plot_data/follium/es_with_circles.html" />
+
+<h2>Accident prediction</h2>
 <p>
   In order to predict upcoming accidents a random forest was training. The model
   produced the following results for the upcoming 6 days.
