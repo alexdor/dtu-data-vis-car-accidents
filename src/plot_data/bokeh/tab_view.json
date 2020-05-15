@@ -1,0 +1,1451 @@
+{
+  "target_id": null,
+  "root_id": "1653",
+  "doc": {
+    "roots": {
+      "references": [
+        {
+          "attributes": {
+            "tabs": [
+              { "id": "1461" },
+              { "id": "1503" },
+              { "id": "1545" },
+              { "id": "1587" },
+              { "id": "1652" }
+            ]
+          },
+          "id": "1653",
+          "type": "Tabs"
+        },
+        {
+          "attributes": {
+            "label": { "value": "INJURY " },
+            "renderers": [{ "id": "1624" }]
+          },
+          "id": "1634",
+          "type": "LegendItem"
+        },
+        { "attributes": { "text": "" }, "id": "1626", "type": "Title" },
+        {
+          "attributes": { "overlay": { "id": "1613" } },
+          "id": "1609",
+          "type": "BoxZoomTool"
+        },
+        { "attributes": {}, "id": "1723", "type": "Selection" },
+        {
+          "attributes": {
+            "data_source": { "id": "1462" },
+            "glyph": { "id": "1497" },
+            "hover_glyph": null,
+            "muted_glyph": null,
+            "nonselection_glyph": { "id": "1498" },
+            "selection_glyph": null,
+            "view": { "id": "1500" }
+          },
+          "id": "1499",
+          "type": "GlyphRenderer"
+        },
+        {
+          "attributes": { "source": { "id": "1588" } },
+          "id": "1625",
+          "type": "CDSView"
+        },
+        { "attributes": {}, "id": "1702", "type": "BasicTickFormatter" },
+        { "attributes": {}, "id": "1719", "type": "UnionRenderers" },
+        {
+          "attributes": {
+            "child": { "id": "1464" },
+            "title": "Crash type per day of week"
+          },
+          "id": "1503",
+          "type": "Panel"
+        },
+        {
+          "attributes": {
+            "items": [{ "id": "1634" }, { "id": "1649" }],
+            "location": "top_left",
+            "orientation": "horizontal"
+          },
+          "id": "1633",
+          "type": "Legend"
+        },
+        {
+          "attributes": {
+            "fill_color": { "field": "x", "transform": { "id": "1495" } },
+            "line_color": { "value": "white" },
+            "top": { "field": "counts" },
+            "width": { "value": 0.9 },
+            "x": { "field": "x" }
+          },
+          "id": "1497",
+          "type": "VBar"
+        },
+        { "attributes": {}, "id": "1568", "type": "SaveTool" },
+        {
+          "attributes": {
+            "end": 2,
+            "factors": [
+              "INJURY AND / OR TOW DUE TO CRASH",
+              "NO INJURY / DRIVE AWAY"
+            ],
+            "palette": ["red", "blue"],
+            "start": 1
+          },
+          "id": "1453",
+          "type": "CategoricalColorMapper"
+        },
+        { "attributes": {}, "id": "1482", "type": "WheelZoomTool" },
+        { "attributes": {}, "id": "1724", "type": "UnionRenderers" },
+        {
+          "attributes": {
+            "below": [{ "id": "1432" }],
+            "center": [{ "id": "1434" }, { "id": "1438" }],
+            "left": [{ "id": "1435" }],
+            "plot_height": 800,
+            "plot_width": 1200,
+            "renderers": [{ "id": "1457" }],
+            "title": { "id": "1423" },
+            "toolbar": { "id": "1446" },
+            "x_range": { "id": "1421" },
+            "x_scale": { "id": "1428" },
+            "y_range": { "id": "1426" },
+            "y_scale": { "id": "1430" }
+          },
+          "id": "1422",
+          "subtype": "Figure",
+          "type": "Plot"
+        },
+        {
+          "attributes": {
+            "child": { "id": "1506" },
+            "title": "Crash type per month"
+          },
+          "id": "1545",
+          "type": "Panel"
+        },
+        {
+          "attributes": {
+            "axis_label": "Age Bins",
+            "formatter": { "id": "1700" },
+            "major_label_orientation": 1.5707963267948966,
+            "ticker": { "id": "1559" }
+          },
+          "id": "1558",
+          "type": "CategoricalAxis"
+        },
+        { "attributes": {}, "id": "1481", "type": "PanTool" },
+        { "attributes": {}, "id": "1630", "type": "BasicTickFormatter" },
+        { "attributes": {}, "id": "1597", "type": "LinearScale" },
+        {
+          "attributes": {
+            "axis": { "id": "1603" },
+            "dimension": 1,
+            "ticker": null
+          },
+          "id": "1606",
+          "type": "Grid"
+        },
+        {
+          "attributes": {
+            "bottom_units": "screen",
+            "fill_alpha": 0.5,
+            "fill_color": "lightgrey",
+            "left_units": "screen",
+            "level": "overlay",
+            "line_alpha": 1.0,
+            "line_color": "black",
+            "line_dash": [4, 4],
+            "line_width": 2,
+            "render_mode": "css",
+            "right_units": "screen",
+            "top_units": "screen"
+          },
+          "id": "1571",
+          "type": "BoxAnnotation"
+        },
+        {
+          "attributes": {
+            "axis_label": "Year",
+            "formatter": { "id": "1628" },
+            "major_label_orientation": 1.5707963267948966,
+            "ticker": { "id": "1600" }
+          },
+          "id": "1599",
+          "type": "LinearAxis"
+        },
+        { "attributes": {}, "id": "1478", "type": "BasicTicker" },
+        { "attributes": {}, "id": "1628", "type": "BasicTickFormatter" },
+        { "attributes": {}, "id": "1600", "type": "BasicTicker" },
+        {
+          "attributes": {
+            "end": 2,
+            "factors": [
+              "INJURY AND / OR TOW DUE TO CRASH",
+              "NO INJURY / DRIVE AWAY"
+            ],
+            "palette": ["red", "blue"],
+            "start": 1
+          },
+          "id": "1495",
+          "type": "CategoricalColorMapper"
+        },
+        {
+          "attributes": { "text": "Crash type per Hours" },
+          "id": "1423",
+          "type": "Title"
+        },
+        { "attributes": {}, "id": "1608", "type": "WheelZoomTool" },
+        {
+          "attributes": {
+            "factors": [
+              ["Jan", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["Jan", "NO INJURY / DRIVE AWAY"],
+              ["Feb", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["Feb", "NO INJURY / DRIVE AWAY"],
+              ["Mar", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["Mar", "NO INJURY / DRIVE AWAY"],
+              ["Apr", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["Apr", "NO INJURY / DRIVE AWAY"],
+              ["May", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["May", "NO INJURY / DRIVE AWAY"],
+              ["Jun", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["Jun", "NO INJURY / DRIVE AWAY"],
+              ["Jul", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["Jul", "NO INJURY / DRIVE AWAY"],
+              ["Aug", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["Aug", "NO INJURY / DRIVE AWAY"],
+              ["Sep", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["Sep", "NO INJURY / DRIVE AWAY"],
+              ["Oct", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["Oct", "NO INJURY / DRIVE AWAY"],
+              ["Nov", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["Nov", "NO INJURY / DRIVE AWAY"],
+              ["Dec", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["Dec", "NO INJURY / DRIVE AWAY"]
+            ]
+          },
+          "id": "1505",
+          "type": "FactorRange"
+        },
+        {
+          "attributes": { "overlay": { "id": "1571" } },
+          "id": "1567",
+          "type": "BoxZoomTool"
+        },
+        {
+          "attributes": {
+            "end": 2,
+            "factors": [
+              "INJURY AND / OR TOW DUE TO CRASH",
+              "NO INJURY / DRIVE AWAY"
+            ],
+            "palette": ["red", "blue"],
+            "start": 1
+          },
+          "id": "1537",
+          "type": "CategoricalColorMapper"
+        },
+        {
+          "attributes": { "text": "Crash type per day of week" },
+          "id": "1465",
+          "type": "Title"
+        },
+        { "attributes": {}, "id": "1604", "type": "BasicTicker" },
+        {
+          "attributes": {
+            "data_source": { "id": "1588" },
+            "glyph": { "id": "1622" },
+            "hover_glyph": null,
+            "muted_glyph": null,
+            "nonselection_glyph": { "id": "1623" },
+            "selection_glyph": null,
+            "view": { "id": "1625" }
+          },
+          "id": "1624",
+          "type": "GlyphRenderer"
+        },
+        { "attributes": {}, "id": "1570", "type": "HelpTool" },
+        { "attributes": {}, "id": "1510", "type": "DataRange1d" },
+        { "attributes": {}, "id": "1610", "type": "SaveTool" },
+        {
+          "attributes": {
+            "factors": [
+              ["Monday", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["Monday", "NO INJURY / DRIVE AWAY"],
+              ["Tuesday", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["Tuesday", "NO INJURY / DRIVE AWAY"],
+              ["Wednesday", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["Wednesday", "NO INJURY / DRIVE AWAY"],
+              ["Thursday", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["Thursday", "NO INJURY / DRIVE AWAY"],
+              ["Friday", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["Friday", "NO INJURY / DRIVE AWAY"],
+              ["Saturday", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["Saturday", "NO INJURY / DRIVE AWAY"],
+              ["Sunday", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["Sunday", "NO INJURY / DRIVE AWAY"]
+            ]
+          },
+          "id": "1463",
+          "type": "FactorRange"
+        },
+        {
+          "attributes": {
+            "active_drag": "auto",
+            "active_inspect": "auto",
+            "active_multi": null,
+            "active_scroll": "auto",
+            "active_tap": "auto",
+            "tools": [
+              { "id": "1565" },
+              { "id": "1566" },
+              { "id": "1567" },
+              { "id": "1568" },
+              { "id": "1569" },
+              { "id": "1570" },
+              { "id": "1585" }
+            ]
+          },
+          "id": "1572",
+          "type": "Toolbar"
+        },
+        {
+          "attributes": {
+            "data": {
+              "counts": [
+                6659,
+                9967,
+                13977,
+                19633,
+                6,
+                15,
+                35249,
+                71771,
+                25653,
+                63213,
+                18199,
+                49398,
+                14988,
+                39864,
+                8788,
+                23721,
+                3544,
+                9055,
+                1132,
+                2457,
+                112,
+                245
+              ],
+              "x": [
+                ["(0.0, 10.0]", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["(0.0, 10.0]", "NO INJURY / DRIVE AWAY"],
+                ["(10.0, 19.0]", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["(10.0, 19.0]", "NO INJURY / DRIVE AWAY"],
+                ["(19.0, 29.0]", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["(19.0, 29.0]", "NO INJURY / DRIVE AWAY"],
+                ["(29.0, 39.0]", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["(29.0, 39.0]", "NO INJURY / DRIVE AWAY"],
+                ["(39.0, 49.0]", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["(39.0, 49.0]", "NO INJURY / DRIVE AWAY"],
+                ["(49.0, 59.0]", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["(49.0, 59.0]", "NO INJURY / DRIVE AWAY"],
+                ["(59.0, 69.0]", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["(59.0, 69.0]", "NO INJURY / DRIVE AWAY"],
+                ["(69.0, 79.0]", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["(69.0, 79.0]", "NO INJURY / DRIVE AWAY"],
+                ["(79.0, 89.0]", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["(79.0, 89.0]", "NO INJURY / DRIVE AWAY"],
+                ["(89.0, 99.0]", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["(89.0, 99.0]", "NO INJURY / DRIVE AWAY"],
+                ["(99.0, 110.0]", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["(99.0, 110.0]", "NO INJURY / DRIVE AWAY"]
+              ]
+            },
+            "selected": { "id": "1718" },
+            "selection_policy": { "id": "1719" }
+          },
+          "id": "1546",
+          "type": "ColumnDataSource"
+        },
+        {
+          "attributes": {
+            "axis_label": "Number of Crashes",
+            "formatter": { "id": "1630" },
+            "ticker": { "id": "1604" }
+          },
+          "id": "1603",
+          "type": "LinearAxis"
+        },
+        {
+          "attributes": {
+            "bottom_units": "screen",
+            "fill_alpha": 0.5,
+            "fill_color": "lightgrey",
+            "left_units": "screen",
+            "level": "overlay",
+            "line_alpha": 1.0,
+            "line_color": "black",
+            "line_dash": [4, 4],
+            "line_width": 2,
+            "render_mode": "css",
+            "right_units": "screen",
+            "top_units": "screen"
+          },
+          "id": "1445",
+          "type": "BoxAnnotation"
+        },
+        {
+          "attributes": { "axis": { "id": "1599" }, "ticker": null },
+          "id": "1602",
+          "type": "Grid"
+        },
+        { "attributes": {}, "id": "1698", "type": "BasicTickFormatter" },
+        {
+          "attributes": {
+            "child": { "id": "1548" },
+            "title": "Crash type per ages"
+          },
+          "id": "1587",
+          "type": "Panel"
+        },
+        {
+          "attributes": {
+            "axis": { "id": "1477" },
+            "dimension": 1,
+            "ticker": null
+          },
+          "id": "1480",
+          "type": "Grid"
+        },
+        {
+          "attributes": {
+            "active_drag": "auto",
+            "active_inspect": "auto",
+            "active_multi": null,
+            "active_scroll": "auto",
+            "active_tap": "auto",
+            "tools": [
+              { "id": "1607" },
+              { "id": "1608" },
+              { "id": "1609" },
+              { "id": "1610" },
+              { "id": "1611" },
+              { "id": "1612" },
+              { "id": "1650" }
+            ]
+          },
+          "id": "1614",
+          "type": "Toolbar"
+        },
+        {
+          "attributes": {
+            "callback": null,
+            "tooltips": [
+              ["Cash Amounts  ", "@counts "],
+              ["Month / Crash type ", " @x"]
+            ]
+          },
+          "id": "1543",
+          "type": "HoverTool"
+        },
+        {
+          "attributes": {
+            "line_alpha": 0.1,
+            "line_color": "red",
+            "line_width": 3,
+            "x": { "field": "x" },
+            "y": { "field": "y" }
+          },
+          "id": "1637",
+          "type": "Line"
+        },
+        {
+          "attributes": {
+            "below": [{ "id": "1474" }],
+            "center": [{ "id": "1476" }, { "id": "1480" }],
+            "left": [{ "id": "1477" }],
+            "plot_height": 800,
+            "plot_width": 1200,
+            "renderers": [{ "id": "1499" }],
+            "title": { "id": "1465" },
+            "toolbar": { "id": "1488" },
+            "x_range": { "id": "1463" },
+            "x_scale": { "id": "1470" },
+            "y_range": { "id": "1468" },
+            "y_scale": { "id": "1472" }
+          },
+          "id": "1464",
+          "subtype": "Figure",
+          "type": "Plot"
+        },
+        {
+          "attributes": { "text": "Crash type per month" },
+          "id": "1507",
+          "type": "Title"
+        },
+        { "attributes": {}, "id": "1700", "type": "CategoricalTickFormatter" },
+        {
+          "attributes": {
+            "end": 2,
+            "factors": [
+              "INJURY AND / OR TOW DUE TO CRASH",
+              "NO INJURY / DRIVE AWAY"
+            ],
+            "palette": ["red", "blue"],
+            "start": 1
+          },
+          "id": "1579",
+          "type": "CategoricalColorMapper"
+        },
+        {
+          "attributes": {
+            "below": [{ "id": "1516" }],
+            "center": [{ "id": "1518" }, { "id": "1522" }],
+            "left": [{ "id": "1519" }],
+            "plot_height": 800,
+            "plot_width": 1200,
+            "renderers": [{ "id": "1541" }],
+            "title": { "id": "1507" },
+            "toolbar": { "id": "1530" },
+            "x_range": { "id": "1505" },
+            "x_scale": { "id": "1512" },
+            "y_range": { "id": "1510" },
+            "y_scale": { "id": "1514" }
+          },
+          "id": "1506",
+          "subtype": "Figure",
+          "type": "Plot"
+        },
+        {
+          "attributes": {
+            "callback": null,
+            "tooltips": [
+              ["Cash Amounts  ", "@y "],
+              ["Year ", " @x"]
+            ]
+          },
+          "id": "1650",
+          "type": "HoverTool"
+        },
+        {
+          "attributes": {
+            "line_alpha": 0.6,
+            "line_color": "green",
+            "line_width": 3,
+            "x": { "field": "x" },
+            "y": { "field": "y" }
+          },
+          "id": "1622",
+          "type": "Line"
+        },
+        { "attributes": {}, "id": "1611", "type": "ResetTool" },
+        {
+          "attributes": {
+            "fill_color": { "field": "x", "transform": { "id": "1537" } },
+            "line_color": { "value": "white" },
+            "top": { "field": "counts" },
+            "width": { "value": 0.9 },
+            "x": { "field": "x" }
+          },
+          "id": "1539",
+          "type": "VBar"
+        },
+        {
+          "attributes": {
+            "line_alpha": 0.1,
+            "line_color": "green",
+            "line_width": 3,
+            "x": { "field": "x" },
+            "y": { "field": "y" }
+          },
+          "id": "1623",
+          "type": "Line"
+        },
+        {
+          "attributes": {
+            "axis_label": "Number of Crashes",
+            "formatter": { "id": "1698" },
+            "ticker": { "id": "1520" }
+          },
+          "id": "1519",
+          "type": "LinearAxis"
+        },
+        { "attributes": {}, "id": "1593", "type": "DataRange1d" },
+        { "attributes": {}, "id": "1569", "type": "ResetTool" },
+        {
+          "attributes": {
+            "data": {
+              "x": [2014, 2015, 2016, 2017, 2018, 2019, 2020],
+              "y": [5, 8697, 37853, 63555, 82132, 80035, 17062]
+            },
+            "selected": { "id": "1723" },
+            "selection_policy": { "id": "1724" }
+          },
+          "id": "1589",
+          "type": "ColumnDataSource"
+        },
+        {
+          "attributes": {
+            "child": { "id": "1422" },
+            "title": "Crash type Per Hours"
+          },
+          "id": "1461",
+          "type": "Panel"
+        },
+        {
+          "attributes": {
+            "fill_color": { "field": "x", "transform": { "id": "1453" } },
+            "line_color": { "value": "white" },
+            "top": { "field": "counts" },
+            "width": { "value": 2 },
+            "x": { "field": "x" }
+          },
+          "id": "1455",
+          "type": "VBar"
+        },
+        {
+          "attributes": {
+            "below": [{ "id": "1599" }],
+            "center": [{ "id": "1602" }, { "id": "1606" }, { "id": "1633" }],
+            "left": [{ "id": "1603" }],
+            "plot_height": 800,
+            "plot_width": 1200,
+            "renderers": [{ "id": "1624" }, { "id": "1638" }],
+            "title": { "id": "1626" },
+            "toolbar": { "id": "1614" },
+            "x_range": { "id": "1591" },
+            "x_scale": { "id": "1595" },
+            "y_range": { "id": "1593" },
+            "y_scale": { "id": "1597" }
+          },
+          "id": "1590",
+          "subtype": "Figure",
+          "type": "Plot"
+        },
+        {
+          "attributes": {
+            "data_source": { "id": "1589" },
+            "glyph": { "id": "1636" },
+            "hover_glyph": null,
+            "muted_glyph": null,
+            "nonselection_glyph": { "id": "1637" },
+            "selection_glyph": null,
+            "view": { "id": "1639" }
+          },
+          "id": "1638",
+          "type": "GlyphRenderer"
+        },
+        { "attributes": {}, "id": "1517", "type": "CategoricalTicker" },
+        { "attributes": {}, "id": "1709", "type": "Selection" },
+        { "attributes": {}, "id": "1591", "type": "DataRange1d" },
+        {
+          "attributes": { "source": { "id": "1462" } },
+          "id": "1500",
+          "type": "CDSView"
+        },
+        { "attributes": {}, "id": "1607", "type": "PanTool" },
+        { "attributes": {}, "id": "1426", "type": "DataRange1d" },
+        { "attributes": {}, "id": "1612", "type": "HelpTool" },
+        {
+          "attributes": {
+            "axis_label": "Months",
+            "formatter": { "id": "1696" },
+            "major_label_orientation": 1.5707963267948966,
+            "ticker": { "id": "1517" }
+          },
+          "id": "1516",
+          "type": "CategoricalAxis"
+        },
+        {
+          "attributes": { "axis": { "id": "1516" }, "ticker": null },
+          "id": "1518",
+          "type": "Grid"
+        },
+        {
+          "attributes": {
+            "data": {
+              "x": [2014, 2015, 2016, 2017, 2018, 2019, 2020],
+              "y": [2, 1059, 6034, 24546, 43865, 42886, 9915]
+            },
+            "selected": { "id": "1647" },
+            "selection_policy": { "id": "1648" }
+          },
+          "id": "1588",
+          "type": "ColumnDataSource"
+        },
+        { "attributes": {}, "id": "1468", "type": "DataRange1d" },
+        { "attributes": {}, "id": "1520", "type": "BasicTicker" },
+        {
+          "attributes": {
+            "callback": null,
+            "tooltips": [
+              ["Cash Amounts  ", "@counts "],
+              ["Hour / Crash type ", " @x"]
+            ]
+          },
+          "id": "1459",
+          "type": "HoverTool"
+        },
+        {
+          "attributes": {
+            "callback": null,
+            "tooltips": [
+              ["Cash Amounts  ", "@counts "],
+              ["Ages / Crash type ", " @x"]
+            ]
+          },
+          "id": "1585",
+          "type": "HoverTool"
+        },
+        { "attributes": {}, "id": "1512", "type": "CategoricalScale" },
+        {
+          "attributes": {
+            "data": {
+              "counts": [
+                3044,
+                3352,
+                2523,
+                2692,
+                2394,
+                2103,
+                2036,
+                1593,
+                1736,
+                1483,
+                1955,
+                2350,
+                3283,
+                5347,
+                6349,
+                15135,
+                7431,
+                18457,
+                5701,
+                14147,
+                5321,
+                13283,
+                5881,
+                15008,
+                6432,
+                17280,
+                6813,
+                18430,
+                7708,
+                20419,
+                9225,
+                25251,
+                9517,
+                25447,
+                9406,
+                24864,
+                7866,
+                19758,
+                6000,
+                13371,
+                4940,
+                9228,
+                4571,
+                8125,
+                4358,
+                7089,
+                3817,
+                5127
+              ],
+              "x": [
+                ["0", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["0", "NO INJURY / DRIVE AWAY"],
+                ["1", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["1", "NO INJURY / DRIVE AWAY"],
+                ["2", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["2", "NO INJURY / DRIVE AWAY"],
+                ["3", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["3", "NO INJURY / DRIVE AWAY"],
+                ["4", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["4", "NO INJURY / DRIVE AWAY"],
+                ["5", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["5", "NO INJURY / DRIVE AWAY"],
+                ["6", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["6", "NO INJURY / DRIVE AWAY"],
+                ["7", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["7", "NO INJURY / DRIVE AWAY"],
+                ["8", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["8", "NO INJURY / DRIVE AWAY"],
+                ["9", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["9", "NO INJURY / DRIVE AWAY"],
+                ["10", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["10", "NO INJURY / DRIVE AWAY"],
+                ["11", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["11", "NO INJURY / DRIVE AWAY"],
+                ["12", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["12", "NO INJURY / DRIVE AWAY"],
+                ["13", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["13", "NO INJURY / DRIVE AWAY"],
+                ["14", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["14", "NO INJURY / DRIVE AWAY"],
+                ["15", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["15", "NO INJURY / DRIVE AWAY"],
+                ["16", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["16", "NO INJURY / DRIVE AWAY"],
+                ["17", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["17", "NO INJURY / DRIVE AWAY"],
+                ["18", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["18", "NO INJURY / DRIVE AWAY"],
+                ["19", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["19", "NO INJURY / DRIVE AWAY"],
+                ["20", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["20", "NO INJURY / DRIVE AWAY"],
+                ["21", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["21", "NO INJURY / DRIVE AWAY"],
+                ["22", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["22", "NO INJURY / DRIVE AWAY"],
+                ["23", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["23", "NO INJURY / DRIVE AWAY"]
+              ]
+            },
+            "selected": { "id": "1709" },
+            "selection_policy": { "id": "1710" }
+          },
+          "id": "1420",
+          "type": "ColumnDataSource"
+        },
+        {
+          "attributes": {
+            "factors": [
+              ["0", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["0", "NO INJURY / DRIVE AWAY"],
+              ["1", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["1", "NO INJURY / DRIVE AWAY"],
+              ["2", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["2", "NO INJURY / DRIVE AWAY"],
+              ["3", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["3", "NO INJURY / DRIVE AWAY"],
+              ["4", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["4", "NO INJURY / DRIVE AWAY"],
+              ["5", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["5", "NO INJURY / DRIVE AWAY"],
+              ["6", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["6", "NO INJURY / DRIVE AWAY"],
+              ["7", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["7", "NO INJURY / DRIVE AWAY"],
+              ["8", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["8", "NO INJURY / DRIVE AWAY"],
+              ["9", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["9", "NO INJURY / DRIVE AWAY"],
+              ["10", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["10", "NO INJURY / DRIVE AWAY"],
+              ["11", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["11", "NO INJURY / DRIVE AWAY"],
+              ["12", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["12", "NO INJURY / DRIVE AWAY"],
+              ["13", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["13", "NO INJURY / DRIVE AWAY"],
+              ["14", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["14", "NO INJURY / DRIVE AWAY"],
+              ["15", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["15", "NO INJURY / DRIVE AWAY"],
+              ["16", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["16", "NO INJURY / DRIVE AWAY"],
+              ["17", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["17", "NO INJURY / DRIVE AWAY"],
+              ["18", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["18", "NO INJURY / DRIVE AWAY"],
+              ["19", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["19", "NO INJURY / DRIVE AWAY"],
+              ["20", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["20", "NO INJURY / DRIVE AWAY"],
+              ["21", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["21", "NO INJURY / DRIVE AWAY"],
+              ["22", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["22", "NO INJURY / DRIVE AWAY"],
+              ["23", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["23", "NO INJURY / DRIVE AWAY"]
+            ]
+          },
+          "id": "1421",
+          "type": "FactorRange"
+        },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.1 },
+            "fill_color": { "field": "x", "transform": { "id": "1579" } },
+            "line_alpha": { "value": 0.1 },
+            "line_color": { "value": "white" },
+            "top": { "field": "counts" },
+            "width": { "value": 0.9 },
+            "x": { "field": "x" }
+          },
+          "id": "1582",
+          "type": "VBar"
+        },
+        { "attributes": {}, "id": "1595", "type": "LinearScale" },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.1 },
+            "fill_color": { "field": "x", "transform": { "id": "1537" } },
+            "line_alpha": { "value": 0.1 },
+            "line_color": { "value": "white" },
+            "top": { "field": "counts" },
+            "width": { "value": 0.9 },
+            "x": { "field": "x" }
+          },
+          "id": "1540",
+          "type": "VBar"
+        },
+        { "attributes": {}, "id": "1514", "type": "LinearScale" },
+        {
+          "attributes": {
+            "data_source": { "id": "1504" },
+            "glyph": { "id": "1539" },
+            "hover_glyph": null,
+            "muted_glyph": null,
+            "nonselection_glyph": { "id": "1540" },
+            "selection_glyph": null,
+            "view": { "id": "1542" }
+          },
+          "id": "1541",
+          "type": "GlyphRenderer"
+        },
+        { "attributes": {}, "id": "1716", "type": "UnionRenderers" },
+        { "attributes": {}, "id": "1428", "type": "CategoricalScale" },
+        { "attributes": {}, "id": "1712", "type": "Selection" },
+        {
+          "attributes": {
+            "data": {
+              "counts": [
+                9154,
+                20918,
+                10511,
+                23199,
+                12149,
+                26698,
+                9765,
+                24167,
+                11070,
+                25070,
+                9986,
+                21963,
+                9329,
+                21940,
+                10890,
+                24211,
+                9714,
+                22592,
+                11560,
+                26042,
+                12523,
+                27418,
+                11656,
+                25121
+              ],
+              "x": [
+                ["Jan", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["Jan", "NO INJURY / DRIVE AWAY"],
+                ["Feb", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["Feb", "NO INJURY / DRIVE AWAY"],
+                ["Mar", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["Mar", "NO INJURY / DRIVE AWAY"],
+                ["Apr", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["Apr", "NO INJURY / DRIVE AWAY"],
+                ["May", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["May", "NO INJURY / DRIVE AWAY"],
+                ["Jun", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["Jun", "NO INJURY / DRIVE AWAY"],
+                ["Jul", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["Jul", "NO INJURY / DRIVE AWAY"],
+                ["Aug", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["Aug", "NO INJURY / DRIVE AWAY"],
+                ["Sep", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["Sep", "NO INJURY / DRIVE AWAY"],
+                ["Oct", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["Oct", "NO INJURY / DRIVE AWAY"],
+                ["Nov", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["Nov", "NO INJURY / DRIVE AWAY"],
+                ["Dec", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["Dec", "NO INJURY / DRIVE AWAY"]
+              ]
+            },
+            "selected": { "id": "1715" },
+            "selection_policy": { "id": "1716" }
+          },
+          "id": "1504",
+          "type": "ColumnDataSource"
+        },
+        {
+          "attributes": {
+            "bottom_units": "screen",
+            "fill_alpha": 0.5,
+            "fill_color": "lightgrey",
+            "left_units": "screen",
+            "level": "overlay",
+            "line_alpha": 1.0,
+            "line_color": "black",
+            "line_dash": [4, 4],
+            "line_width": 2,
+            "render_mode": "css",
+            "right_units": "screen",
+            "top_units": "screen"
+          },
+          "id": "1613",
+          "type": "BoxAnnotation"
+        },
+        { "attributes": {}, "id": "1718", "type": "Selection" },
+        {
+          "attributes": {
+            "factors": [
+              ["(0.0, 10.0]", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["(0.0, 10.0]", "NO INJURY / DRIVE AWAY"],
+              ["(10.0, 19.0]", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["(10.0, 19.0]", "NO INJURY / DRIVE AWAY"],
+              ["(19.0, 29.0]", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["(19.0, 29.0]", "NO INJURY / DRIVE AWAY"],
+              ["(29.0, 39.0]", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["(29.0, 39.0]", "NO INJURY / DRIVE AWAY"],
+              ["(39.0, 49.0]", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["(39.0, 49.0]", "NO INJURY / DRIVE AWAY"],
+              ["(49.0, 59.0]", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["(49.0, 59.0]", "NO INJURY / DRIVE AWAY"],
+              ["(59.0, 69.0]", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["(59.0, 69.0]", "NO INJURY / DRIVE AWAY"],
+              ["(69.0, 79.0]", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["(69.0, 79.0]", "NO INJURY / DRIVE AWAY"],
+              ["(79.0, 89.0]", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["(79.0, 89.0]", "NO INJURY / DRIVE AWAY"],
+              ["(89.0, 99.0]", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["(89.0, 99.0]", "NO INJURY / DRIVE AWAY"],
+              ["(99.0, 110.0]", "INJURY AND / OR TOW DUE TO CRASH"],
+              ["(99.0, 110.0]", "NO INJURY / DRIVE AWAY"]
+            ]
+          },
+          "id": "1547",
+          "type": "FactorRange"
+        },
+        {
+          "attributes": {
+            "data": {
+              "counts": [
+                20404,
+                48578,
+                17231,
+                40546,
+                19420,
+                40492,
+                16692,
+                30572,
+                18278,
+                42776,
+                18032,
+                43192,
+                18250,
+                43183
+              ],
+              "x": [
+                ["Monday", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["Monday", "NO INJURY / DRIVE AWAY"],
+                ["Tuesday", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["Tuesday", "NO INJURY / DRIVE AWAY"],
+                ["Wednesday", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["Wednesday", "NO INJURY / DRIVE AWAY"],
+                ["Thursday", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["Thursday", "NO INJURY / DRIVE AWAY"],
+                ["Friday", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["Friday", "NO INJURY / DRIVE AWAY"],
+                ["Saturday", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["Saturday", "NO INJURY / DRIVE AWAY"],
+                ["Sunday", "INJURY AND / OR TOW DUE TO CRASH"],
+                ["Sunday", "NO INJURY / DRIVE AWAY"]
+              ]
+            },
+            "selected": { "id": "1712" },
+            "selection_policy": { "id": "1713" }
+          },
+          "id": "1462",
+          "type": "ColumnDataSource"
+        },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.1 },
+            "fill_color": { "field": "x", "transform": { "id": "1495" } },
+            "line_alpha": { "value": 0.1 },
+            "line_color": { "value": "white" },
+            "top": { "field": "counts" },
+            "width": { "value": 0.9 },
+            "x": { "field": "x" }
+          },
+          "id": "1498",
+          "type": "VBar"
+        },
+        {
+          "attributes": {
+            "axis_label": "Number of Crashes",
+            "formatter": { "id": "1690" },
+            "ticker": { "id": "1436" }
+          },
+          "id": "1435",
+          "type": "LinearAxis"
+        },
+        {
+          "attributes": { "text": "Crash type per ages" },
+          "id": "1549",
+          "type": "Title"
+        },
+        {
+          "attributes": {
+            "axis_label": "Number of Crashes",
+            "formatter": { "id": "1694" },
+            "ticker": { "id": "1478" }
+          },
+          "id": "1477",
+          "type": "LinearAxis"
+        },
+        { "attributes": {}, "id": "1526", "type": "SaveTool" },
+        { "attributes": {}, "id": "1523", "type": "PanTool" },
+        { "attributes": {}, "id": "1715", "type": "Selection" },
+        {
+          "attributes": {
+            "axis": { "id": "1519" },
+            "dimension": 1,
+            "ticker": null
+          },
+          "id": "1522",
+          "type": "Grid"
+        },
+        { "attributes": {}, "id": "1470", "type": "CategoricalScale" },
+        { "attributes": {}, "id": "1430", "type": "LinearScale" },
+        {
+          "attributes": {
+            "active_drag": "auto",
+            "active_inspect": "auto",
+            "active_multi": null,
+            "active_scroll": "auto",
+            "active_tap": "auto",
+            "tools": [
+              { "id": "1523" },
+              { "id": "1524" },
+              { "id": "1525" },
+              { "id": "1526" },
+              { "id": "1527" },
+              { "id": "1528" },
+              { "id": "1543" }
+            ]
+          },
+          "id": "1530",
+          "type": "Toolbar"
+        },
+        { "attributes": {}, "id": "1433", "type": "CategoricalTicker" },
+        { "attributes": {}, "id": "1692", "type": "CategoricalTickFormatter" },
+        {
+          "attributes": {
+            "axis_label": "Week Days",
+            "formatter": { "id": "1692" },
+            "major_label_orientation": 1.5707963267948966,
+            "ticker": { "id": "1475" }
+          },
+          "id": "1474",
+          "type": "CategoricalAxis"
+        },
+        { "attributes": {}, "id": "1710", "type": "UnionRenderers" },
+        {
+          "attributes": {
+            "axis_label": "Hours",
+            "formatter": { "id": "1688" },
+            "major_label_orientation": 1.5707963267948966,
+            "ticker": { "id": "1433" }
+          },
+          "id": "1432",
+          "type": "CategoricalAxis"
+        },
+        { "attributes": {}, "id": "1472", "type": "LinearScale" },
+        { "attributes": {}, "id": "1688", "type": "CategoricalTickFormatter" },
+        {
+          "attributes": {
+            "bottom_units": "screen",
+            "fill_alpha": 0.5,
+            "fill_color": "lightgrey",
+            "left_units": "screen",
+            "level": "overlay",
+            "line_alpha": 1.0,
+            "line_color": "black",
+            "line_dash": [4, 4],
+            "line_width": 2,
+            "render_mode": "css",
+            "right_units": "screen",
+            "top_units": "screen"
+          },
+          "id": "1529",
+          "type": "BoxAnnotation"
+        },
+        { "attributes": {}, "id": "1694", "type": "BasicTickFormatter" },
+        { "attributes": {}, "id": "1484", "type": "SaveTool" },
+        {
+          "attributes": {
+            "axis": { "id": "1435" },
+            "dimension": 1,
+            "ticker": null
+          },
+          "id": "1438",
+          "type": "Grid"
+        },
+        { "attributes": {}, "id": "1696", "type": "CategoricalTickFormatter" },
+        {
+          "attributes": { "axis": { "id": "1474" }, "ticker": null },
+          "id": "1476",
+          "type": "Grid"
+        },
+        { "attributes": {}, "id": "1436", "type": "BasicTicker" },
+        {
+          "attributes": { "overlay": { "id": "1529" } },
+          "id": "1525",
+          "type": "BoxZoomTool"
+        },
+        { "attributes": {}, "id": "1713", "type": "UnionRenderers" },
+        { "attributes": {}, "id": "1475", "type": "CategoricalTicker" },
+        {
+          "attributes": {
+            "fill_color": { "field": "x", "transform": { "id": "1579" } },
+            "line_color": { "value": "white" },
+            "top": { "field": "counts" },
+            "width": { "value": 0.9 },
+            "x": { "field": "x" }
+          },
+          "id": "1581",
+          "type": "VBar"
+        },
+        { "attributes": {}, "id": "1647", "type": "Selection" },
+        { "attributes": {}, "id": "1524", "type": "WheelZoomTool" },
+        {
+          "attributes": { "axis": { "id": "1432" }, "ticker": null },
+          "id": "1434",
+          "type": "Grid"
+        },
+        {
+          "attributes": { "overlay": { "id": "1487" } },
+          "id": "1483",
+          "type": "BoxZoomTool"
+        },
+        { "attributes": {}, "id": "1527", "type": "ResetTool" },
+        { "attributes": {}, "id": "1648", "type": "UnionRenderers" },
+        { "attributes": {}, "id": "1444", "type": "HelpTool" },
+        {
+          "attributes": { "source": { "id": "1589" } },
+          "id": "1639",
+          "type": "CDSView"
+        },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.1 },
+            "fill_color": { "field": "x", "transform": { "id": "1453" } },
+            "line_alpha": { "value": 0.1 },
+            "line_color": { "value": "white" },
+            "top": { "field": "counts" },
+            "width": { "value": 2 },
+            "x": { "field": "x" }
+          },
+          "id": "1456",
+          "type": "VBar"
+        },
+        { "attributes": {}, "id": "1485", "type": "ResetTool" },
+        {
+          "attributes": { "source": { "id": "1504" } },
+          "id": "1542",
+          "type": "CDSView"
+        },
+        { "attributes": {}, "id": "1443", "type": "ResetTool" },
+        {
+          "attributes": {
+            "callback": null,
+            "tooltips": [
+              ["Cash Amounts  ", "@counts "],
+              ["Day Of Week / Crash type ", " @x"]
+            ]
+          },
+          "id": "1501",
+          "type": "HoverTool"
+        },
+        {
+          "attributes": {
+            "data_source": { "id": "1420" },
+            "glyph": { "id": "1455" },
+            "hover_glyph": null,
+            "muted_glyph": null,
+            "nonselection_glyph": { "id": "1456" },
+            "selection_glyph": null,
+            "view": { "id": "1458" }
+          },
+          "id": "1457",
+          "type": "GlyphRenderer"
+        },
+        {
+          "attributes": {
+            "active_drag": "auto",
+            "active_inspect": "auto",
+            "active_multi": null,
+            "active_scroll": "auto",
+            "active_tap": "auto",
+            "tools": [
+              { "id": "1481" },
+              { "id": "1482" },
+              { "id": "1483" },
+              { "id": "1484" },
+              { "id": "1485" },
+              { "id": "1486" },
+              { "id": "1501" }
+            ]
+          },
+          "id": "1488",
+          "type": "Toolbar"
+        },
+        { "attributes": {}, "id": "1486", "type": "HelpTool" },
+        { "attributes": {}, "id": "1559", "type": "CategoricalTicker" },
+        {
+          "attributes": {
+            "label": { "value": "NO INJURY " },
+            "renderers": [{ "id": "1638" }]
+          },
+          "id": "1649",
+          "type": "LegendItem"
+        },
+        {
+          "attributes": { "source": { "id": "1420" } },
+          "id": "1458",
+          "type": "CDSView"
+        },
+        {
+          "attributes": {
+            "child": { "id": "1590" },
+            "title": "Crash type per year"
+          },
+          "id": "1652",
+          "type": "Panel"
+        },
+        { "attributes": {}, "id": "1528", "type": "HelpTool" },
+        {
+          "attributes": {
+            "bottom_units": "screen",
+            "fill_alpha": 0.5,
+            "fill_color": "lightgrey",
+            "left_units": "screen",
+            "level": "overlay",
+            "line_alpha": 1.0,
+            "line_color": "black",
+            "line_dash": [4, 4],
+            "line_width": 2,
+            "render_mode": "css",
+            "right_units": "screen",
+            "top_units": "screen"
+          },
+          "id": "1487",
+          "type": "BoxAnnotation"
+        },
+        { "attributes": {}, "id": "1439", "type": "PanTool" },
+        {
+          "attributes": {
+            "axis": { "id": "1561" },
+            "dimension": 1,
+            "ticker": null
+          },
+          "id": "1564",
+          "type": "Grid"
+        },
+        { "attributes": {}, "id": "1554", "type": "CategoricalScale" },
+        { "attributes": {}, "id": "1552", "type": "DataRange1d" },
+        { "attributes": {}, "id": "1562", "type": "BasicTicker" },
+        {
+          "attributes": {
+            "below": [{ "id": "1558" }],
+            "center": [{ "id": "1560" }, { "id": "1564" }],
+            "left": [{ "id": "1561" }],
+            "plot_height": 800,
+            "plot_width": 1200,
+            "renderers": [{ "id": "1583" }],
+            "title": { "id": "1549" },
+            "toolbar": { "id": "1572" },
+            "x_range": { "id": "1547" },
+            "x_scale": { "id": "1554" },
+            "y_range": { "id": "1552" },
+            "y_scale": { "id": "1556" }
+          },
+          "id": "1548",
+          "subtype": "Figure",
+          "type": "Plot"
+        },
+        {
+          "attributes": {
+            "active_drag": "auto",
+            "active_inspect": "auto",
+            "active_multi": null,
+            "active_scroll": "auto",
+            "active_tap": "auto",
+            "tools": [
+              { "id": "1439" },
+              { "id": "1440" },
+              { "id": "1441" },
+              { "id": "1442" },
+              { "id": "1443" },
+              { "id": "1444" },
+              { "id": "1459" }
+            ]
+          },
+          "id": "1446",
+          "type": "Toolbar"
+        },
+        { "attributes": {}, "id": "1556", "type": "LinearScale" },
+        { "attributes": {}, "id": "1566", "type": "WheelZoomTool" },
+        {
+          "attributes": { "axis": { "id": "1558" }, "ticker": null },
+          "id": "1560",
+          "type": "Grid"
+        },
+        {
+          "attributes": {
+            "data_source": { "id": "1546" },
+            "glyph": { "id": "1581" },
+            "hover_glyph": null,
+            "muted_glyph": null,
+            "nonselection_glyph": { "id": "1582" },
+            "selection_glyph": null,
+            "view": { "id": "1584" }
+          },
+          "id": "1583",
+          "type": "GlyphRenderer"
+        },
+        {
+          "attributes": {
+            "axis_label": "Number of Crashes",
+            "formatter": { "id": "1702" },
+            "ticker": { "id": "1562" }
+          },
+          "id": "1561",
+          "type": "LinearAxis"
+        },
+        { "attributes": {}, "id": "1565", "type": "PanTool" },
+        { "attributes": {}, "id": "1440", "type": "WheelZoomTool" },
+        {
+          "attributes": {
+            "line_alpha": 0.6,
+            "line_color": "red",
+            "line_width": 3,
+            "x": { "field": "x" },
+            "y": { "field": "y" }
+          },
+          "id": "1636",
+          "type": "Line"
+        },
+        { "attributes": {}, "id": "1442", "type": "SaveTool" },
+        {
+          "attributes": { "source": { "id": "1546" } },
+          "id": "1584",
+          "type": "CDSView"
+        },
+        { "attributes": {}, "id": "1690", "type": "BasicTickFormatter" },
+        {
+          "attributes": { "overlay": { "id": "1445" } },
+          "id": "1441",
+          "type": "BoxZoomTool"
+        }
+      ],
+      "root_ids": ["1653"]
+    },
+    "title": "",
+    "version": "2.0.2"
+  }
+}

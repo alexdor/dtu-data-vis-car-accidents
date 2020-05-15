@@ -1,0 +1,1597 @@
+{
+  "target_id": null,
+  "root_id": "1002",
+  "doc": {
+    "roots": {
+      "references": [
+        {
+          "attributes": {
+            "axis": { "id": "1016" },
+            "dimension": 1,
+            "ticker": null
+          },
+          "id": "1019",
+          "type": "Grid"
+        },
+        {
+          "attributes": {
+            "fill_color": { "value": "#79D151" },
+            "line_color": { "value": "#1f77b4" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1083",
+          "type": "VBar"
+        },
+        {
+          "attributes": {
+            "data_source": { "id": "1058" },
+            "glyph": { "id": "1059" },
+            "hover_glyph": null,
+            "muted": true,
+            "muted_glyph": { "id": "1061" },
+            "nonselection_glyph": { "id": "1060" },
+            "selection_glyph": null,
+            "view": { "id": "1063" }
+          },
+          "id": "1062",
+          "type": "GlyphRenderer"
+        },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.05 },
+            "fill_color": { "value": "#440154" },
+            "line_alpha": { "value": 0.05 },
+            "line_color": { "value": "#440154" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1037",
+          "type": "VBar"
+        },
+        {
+          "attributes": {
+            "data": {
+              "top": [
+                0.003968568934042385,
+                0.002460512739106278,
+                0.00206365584570204,
+                0.0007937137868084769,
+                0.0019049130883403444,
+                0.005238510992935947,
+                0.013096277482339868,
+                0.03127232320025399,
+                0.04762282720850861,
+                0.059131677117231524,
+                0.06818001428684817,
+                0.0754028097468053,
+                0.0888959441225494,
+                0.0895309151519962,
+                0.09532502579569807,
+                0.09865862370029367,
+                0.09000714342408128,
+                0.07548218112548614,
+                0.05222636717199778,
+                0.03468529248353044,
+                0.02333518533216922,
+                0.019922216048892768,
+                0.012223192316850543,
+                0.008572108897531551
+              ],
+              "x": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24"
+              ]
+            },
+            "selected": { "id": "1134" },
+            "selection_policy": { "id": "1135" }
+          },
+          "id": "1082",
+          "type": "ColumnDataSource"
+        },
+        { "attributes": {}, "id": "1124", "type": "Selection" },
+        {
+          "attributes": {
+            "axis_label": "Age ",
+            "formatter": { "id": "1115" },
+            "ticker": { "id": "1017" }
+          },
+          "id": "1016",
+          "type": "LinearAxis"
+        },
+        {
+          "attributes": { "source": { "id": "1076" } },
+          "id": "1081",
+          "type": "CDSView"
+        },
+        { "attributes": {}, "id": "1125", "type": "UnionRenderers" },
+        { "attributes": {}, "id": "1113", "type": "CategoricalTickFormatter" },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.1 },
+            "fill_color": { "value": "#208F8C" },
+            "line_alpha": { "value": 0.1 },
+            "line_color": { "value": "#1f77b4" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1066",
+          "type": "VBar"
+        },
+        { "attributes": {}, "id": "1126", "type": "Selection" },
+        {
+          "attributes": {
+            "label": { "value": "0 - 10" },
+            "renderers": [{ "id": "1038" }]
+          },
+          "id": "1101",
+          "type": "LegendItem"
+        },
+        {
+          "attributes": {
+            "bottom_units": "screen",
+            "fill_alpha": 0.5,
+            "fill_color": "lightgrey",
+            "left_units": "screen",
+            "level": "overlay",
+            "line_alpha": 1.0,
+            "line_color": "black",
+            "line_dash": [4, 4],
+            "line_width": 2,
+            "render_mode": "css",
+            "right_units": "screen",
+            "top_units": "screen"
+          },
+          "id": "1026",
+          "type": "BoxAnnotation"
+        },
+        { "attributes": {}, "id": "1123", "type": "UnionRenderers" },
+        {
+          "attributes": {
+            "data_source": { "id": "1034" },
+            "glyph": { "id": "1035" },
+            "hover_glyph": null,
+            "muted": true,
+            "muted_glyph": { "id": "1037" },
+            "nonselection_glyph": { "id": "1036" },
+            "selection_glyph": null,
+            "view": { "id": "1039" }
+          },
+          "id": "1038",
+          "type": "GlyphRenderer"
+        },
+        {
+          "attributes": {
+            "data": {
+              "top": [
+                0.01978577804224933,
+                0.014727759595358525,
+                0.009878012496280869,
+                0.008152335614400477,
+                0.0051472775959535855,
+                0.00559357334126748,
+                0.012020232073787563,
+                0.06489140136864029,
+                0.05075870276703362,
+                0.03317465040166617,
+                0.031835763165724486,
+                0.03861945849449568,
+                0.04593870871764356,
+                0.05120499851234751,
+                0.06233263909550729,
+                0.09482296935435883,
+                0.094079143112169,
+                0.08586730139839334,
+                0.06759892889021124,
+                0.055816721213924426,
+                0.04239809580481999,
+                0.0394227908360607,
+                0.035614400476048795,
+                0.030318357631657245
+              ],
+              "x": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24"
+              ]
+            },
+            "selected": { "id": "1120" },
+            "selection_policy": { "id": "1121" }
+          },
+          "id": "1040",
+          "type": "ColumnDataSource"
+        },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.1 },
+            "fill_color": { "value": "#79D151" },
+            "line_alpha": { "value": 0.1 },
+            "line_color": { "value": "#1f77b4" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1084",
+          "type": "VBar"
+        },
+        { "attributes": {}, "id": "1127", "type": "UnionRenderers" },
+        {
+          "attributes": {
+            "label": { "value": "10 - 20" },
+            "renderers": [{ "id": "1044" }]
+          },
+          "id": "1102",
+          "type": "LegendItem"
+        },
+        {
+          "attributes": {
+            "label": { "value": "90 - 100" },
+            "renderers": [{ "id": "1092" }]
+          },
+          "id": "1110",
+          "type": "LegendItem"
+        },
+        {
+          "attributes": { "source": { "id": "1034" } },
+          "id": "1039",
+          "type": "CDSView"
+        },
+        { "attributes": {}, "id": "1115", "type": "BasicTickFormatter" },
+        {
+          "attributes": { "source": { "id": "1058" } },
+          "id": "1063",
+          "type": "CDSView"
+        },
+        {
+          "attributes": {
+            "data": {
+              "top": [
+                0.008781426681101889,
+                0.005653795260435463,
+                0.006074822567063635,
+                0.003668952243474077,
+                0.002947191146397209,
+                0.003668952243474077,
+                0.013593167328281006,
+                0.07049200048117406,
+                0.08673162516540359,
+                0.0466137375195477,
+                0.03825333814507398,
+                0.04667388427763743,
+                0.05160591844099603,
+                0.05713942018525202,
+                0.06092866594490557,
+                0.09827980271863347,
+                0.10261036930109467,
+                0.09034043065078792,
+                0.07151449536869962,
+                0.04619271021291952,
+                0.0324191026103693,
+                0.027366774930831228,
+                0.018946228798267774,
+                0.009503187778178756
+              ],
+              "x": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24"
+              ]
+            },
+            "selected": { "id": "1118" },
+            "selection_policy": { "id": "1119" }
+          },
+          "id": "1034",
+          "type": "ColumnDataSource"
+        },
+        {
+          "attributes": {
+            "data": {
+              "top": [
+                0.01359527789694809,
+                0.010192760033729308,
+                0.009068449783274406,
+                0.007071319733124251,
+                0.006923384173853869,
+                0.011775670517922393,
+                0.022959598798763258,
+                0.05710312587836738,
+                0.07012145509416098,
+                0.05096380016864654,
+                0.04566770714676687,
+                0.04933650901667234,
+                0.05630427385830732,
+                0.06065357930085655,
+                0.0667189372309422,
+                0.08182315783244819,
+                0.08300664230661124,
+                0.0827995325236327,
+                0.06586091098717399,
+                0.04411438377442786,
+                0.03236830036835954,
+                0.028507182271402576,
+                0.02427622527626966,
+                0.01878781602733849
+              ],
+              "x": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24"
+              ]
+            },
+            "selected": { "id": "1128" },
+            "selection_policy": { "id": "1129" }
+          },
+          "id": "1064",
+          "type": "ColumnDataSource"
+        },
+        { "attributes": {}, "id": "1017", "type": "BasicTicker" },
+        {
+          "attributes": {
+            "data": {
+              "top": [
+                0.016823081943600476,
+                0.013886075664483605,
+                0.01227691130466095,
+                0.009902549906600949,
+                0.00870974275876038,
+                0.011275403416379717,
+                0.022460783651790335,
+                0.05699592645106115,
+                0.06945288411766029,
+                0.04952400243062589,
+                0.041793261764904464,
+                0.04597933967996759,
+                0.05359755136947764,
+                0.05545427947696532,
+                0.06382643530709158,
+                0.0769360610357167,
+                0.08063826435307092,
+                0.0829788670582675,
+                0.06568316341457925,
+                0.046080615758557826,
+                0.034332590642090335,
+                0.030731663403326358,
+                0.02798595638376882,
+                0.022674588706591947
+              ],
+              "x": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24"
+              ]
+            },
+            "selected": { "id": "1126" },
+            "selection_policy": { "id": "1127" }
+          },
+          "id": "1058",
+          "type": "ColumnDataSource"
+        },
+        { "attributes": {}, "id": "1128", "type": "Selection" },
+        {
+          "attributes": {
+            "fill_color": { "value": "#208F8C" },
+            "line_color": { "value": "#1f77b4" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1065",
+          "type": "VBar"
+        },
+        {
+          "attributes": {
+            "fill_color": { "value": "#482374" },
+            "line_color": { "value": "#1f77b4" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1041",
+          "type": "VBar"
+        },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.1 },
+            "fill_color": { "value": "#482374" },
+            "line_alpha": { "value": 0.1 },
+            "line_color": { "value": "#1f77b4" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1042",
+          "type": "VBar"
+        },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.05 },
+            "fill_color": { "value": "#79D151" },
+            "line_alpha": { "value": 0.05 },
+            "line_color": { "value": "#79D151" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1085",
+          "type": "VBar"
+        },
+        { "attributes": {}, "id": "1129", "type": "UnionRenderers" },
+        {
+          "attributes": {
+            "fill_color": { "value": "#BADE27" },
+            "line_color": { "value": "#1f77b4" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1089",
+          "type": "VBar"
+        },
+        {
+          "attributes": {
+            "label": { "value": "20 - 30" },
+            "renderers": [{ "id": "1050" }]
+          },
+          "id": "1103",
+          "type": "LegendItem"
+        },
+        {
+          "attributes": {
+            "fill_color": { "value": "#FDE724" },
+            "line_color": { "value": "#1f77b4" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1095",
+          "type": "VBar"
+        },
+        {
+          "attributes": { "text": "Crash per Hour" },
+          "id": "1003",
+          "type": "Title"
+        },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.1 },
+            "fill_color": { "value": "#42BE71" },
+            "line_alpha": { "value": 0.1 },
+            "line_color": { "value": "#1f77b4" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1078",
+          "type": "VBar"
+        },
+        { "attributes": {}, "id": "1020", "type": "PanTool" },
+        { "attributes": {}, "id": "1130", "type": "Selection" },
+        {
+          "attributes": {
+            "label": { "value": "50 - 60" },
+            "renderers": [{ "id": "1068" }]
+          },
+          "id": "1106",
+          "type": "LegendItem"
+        },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.05 },
+            "fill_color": { "value": "#208F8C" },
+            "line_alpha": { "value": 0.05 },
+            "line_color": { "value": "#208F8C" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1067",
+          "type": "VBar"
+        },
+        {
+          "attributes": {
+            "fill_color": { "value": "#440154" },
+            "line_color": { "value": "#1f77b4" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1035",
+          "type": "VBar"
+        },
+        {
+          "attributes": {
+            "label": { "value": "30 - 40" },
+            "renderers": [{ "id": "1056" }]
+          },
+          "id": "1104",
+          "type": "LegendItem"
+        },
+        {
+          "attributes": {
+            "fill_color": { "value": "#22A784" },
+            "line_color": { "value": "#1f77b4" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1071",
+          "type": "VBar"
+        },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.1 },
+            "fill_color": { "value": "#29788E" },
+            "line_alpha": { "value": 0.1 },
+            "line_color": { "value": "#1f77b4" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1060",
+          "type": "VBar"
+        },
+        { "attributes": {}, "id": "1021", "type": "WheelZoomTool" },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.1 },
+            "fill_color": { "value": "#440154" },
+            "line_alpha": { "value": 0.1 },
+            "line_color": { "value": "#1f77b4" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1036",
+          "type": "VBar"
+        },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.05 },
+            "fill_color": { "value": "#482374" },
+            "line_alpha": { "value": 0.05 },
+            "line_color": { "value": "#482374" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1043",
+          "type": "VBar"
+        },
+        { "attributes": {}, "id": "1131", "type": "UnionRenderers" },
+        {
+          "attributes": {
+            "fill_color": { "value": "#404387" },
+            "line_color": { "value": "#1f77b4" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1047",
+          "type": "VBar"
+        },
+        {
+          "attributes": {
+            "data_source": { "id": "1082" },
+            "glyph": { "id": "1083" },
+            "hover_glyph": null,
+            "muted": true,
+            "muted_glyph": { "id": "1085" },
+            "nonselection_glyph": { "id": "1084" },
+            "selection_glyph": null,
+            "view": { "id": "1087" }
+          },
+          "id": "1086",
+          "type": "GlyphRenderer"
+        },
+        {
+          "attributes": {
+            "label": { "value": "60 - 70" },
+            "renderers": [{ "id": "1074" }]
+          },
+          "id": "1107",
+          "type": "LegendItem"
+        },
+        {
+          "attributes": {
+            "label": { "value": "40 - 50" },
+            "renderers": [{ "id": "1062" }]
+          },
+          "id": "1105",
+          "type": "LegendItem"
+        },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.05 },
+            "fill_color": { "value": "#29788E" },
+            "line_alpha": { "value": 0.05 },
+            "line_color": { "value": "#29788E" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1061",
+          "type": "VBar"
+        },
+        {
+          "attributes": {
+            "data_source": { "id": "1088" },
+            "glyph": { "id": "1089" },
+            "hover_glyph": null,
+            "muted": true,
+            "muted_glyph": { "id": "1091" },
+            "nonselection_glyph": { "id": "1090" },
+            "selection_glyph": null,
+            "view": { "id": "1093" }
+          },
+          "id": "1092",
+          "type": "GlyphRenderer"
+        },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.1 },
+            "fill_color": { "value": "#22A784" },
+            "line_alpha": { "value": 0.1 },
+            "line_color": { "value": "#1f77b4" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1072",
+          "type": "VBar"
+        },
+        {
+          "attributes": { "overlay": { "id": "1026" } },
+          "id": "1022",
+          "type": "BoxZoomTool"
+        },
+        {
+          "attributes": { "source": { "id": "1082" } },
+          "id": "1087",
+          "type": "CDSView"
+        },
+        { "attributes": {}, "id": "1132", "type": "Selection" },
+        {
+          "attributes": {
+            "data": {
+              "top": [
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                0.047619047619047616,
+                0.047619047619047616,
+                0.047619047619047616,
+                0.047619047619047616,
+                "NaN",
+                0.09523809523809523,
+                0.09523809523809523,
+                "NaN",
+                0.09523809523809523,
+                0.09523809523809523,
+                0.09523809523809523,
+                0.14285714285714285,
+                0.09523809523809523,
+                0.047619047619047616,
+                "NaN",
+                "NaN",
+                "NaN",
+                0.047619047619047616
+              ],
+              "x": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24"
+              ]
+            },
+            "selected": { "id": "1122" },
+            "selection_policy": { "id": "1123" }
+          },
+          "id": "1046",
+          "type": "ColumnDataSource"
+        },
+        {
+          "attributes": {
+            "data": {
+              "top": [
+                0.0033435497353023124,
+                0.0019504040122596824,
+                0.0011145165784341043,
+                0.0011145165784341043,
+                0.0011145165784341043,
+                0.0030649205906937865,
+                0.009473390916689885,
+                0.020618556701030927,
+                0.04235162998049596,
+                0.05851212036779047,
+                0.08526051825020897,
+                0.08748955140707718,
+                0.1047645583728058,
+                0.10337141264976317,
+                0.10560044580663137,
+                0.0994706046252438,
+                0.08581777653942603,
+                0.06575647812761215,
+                0.052660908331011426,
+                0.02814154360546113,
+                0.016439119531903038,
+                0.011145165784341042,
+                0.008637503482864307,
+                0.0027862914460852605
+              ],
+              "x": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24"
+              ]
+            },
+            "selected": { "id": "1136" },
+            "selection_policy": { "id": "1137" }
+          },
+          "id": "1088",
+          "type": "ColumnDataSource"
+        },
+        {
+          "attributes": {
+            "data_source": { "id": "1064" },
+            "glyph": { "id": "1065" },
+            "hover_glyph": null,
+            "muted": true,
+            "muted_glyph": { "id": "1067" },
+            "nonselection_glyph": { "id": "1066" },
+            "selection_glyph": null,
+            "view": { "id": "1069" }
+          },
+          "id": "1068",
+          "type": "GlyphRenderer"
+        },
+        { "attributes": {}, "id": "1023", "type": "SaveTool" },
+        { "attributes": {}, "id": "1133", "type": "UnionRenderers" },
+        {
+          "attributes": { "source": { "id": "1064" } },
+          "id": "1069",
+          "type": "CDSView"
+        },
+        {
+          "attributes": {
+            "data_source": { "id": "1040" },
+            "glyph": { "id": "1041" },
+            "hover_glyph": null,
+            "muted": true,
+            "muted_glyph": { "id": "1043" },
+            "nonselection_glyph": { "id": "1042" },
+            "selection_glyph": null,
+            "view": { "id": "1045" }
+          },
+          "id": "1044",
+          "type": "GlyphRenderer"
+        },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.1 },
+            "fill_color": { "value": "#BADE27" },
+            "line_alpha": { "value": 0.1 },
+            "line_color": { "value": "#1f77b4" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1090",
+          "type": "VBar"
+        },
+        { "attributes": {}, "id": "1024", "type": "ResetTool" },
+        {
+          "attributes": { "source": { "id": "1040" } },
+          "id": "1045",
+          "type": "CDSView"
+        },
+        { "attributes": {}, "id": "1134", "type": "Selection" },
+        {
+          "attributes": {
+            "label": { "value": "100 - 110" },
+            "renderers": [{ "id": "1098" }]
+          },
+          "id": "1111",
+          "type": "LegendItem"
+        },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.05 },
+            "fill_color": { "value": "#BADE27" },
+            "line_alpha": { "value": 0.05 },
+            "line_color": { "value": "#BADE27" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1091",
+          "type": "VBar"
+        },
+        { "attributes": {}, "id": "1135", "type": "UnionRenderers" },
+        {
+          "attributes": {
+            "label": { "value": "70 - 80" },
+            "renderers": [{ "id": "1080" }]
+          },
+          "id": "1108",
+          "type": "LegendItem"
+        },
+        {
+          "attributes": {
+            "data": {
+              "top": [
+                0.010136366951068329,
+                0.00816743236345074,
+                0.006034419893531685,
+                0.005305184861080726,
+                0.006070881645154233,
+                0.011868300153139357,
+                0.023681907678844892,
+                0.048804054546780426,
+                0.059851965288412454,
+                0.04922336469043973,
+                0.05193976518631955,
+                0.05605994311966747,
+                0.062276671771311895,
+                0.0647925326332677,
+                0.07254065485305915,
+                0.08743528039086998,
+                0.08701597024721068,
+                0.08138262962152702,
+                0.06634215707722599,
+                0.04293371253555021,
+                0.0315211842776927,
+                0.02625246116823452,
+                0.023608984175599795,
+                0.016754174870560783
+              ],
+              "x": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24"
+              ]
+            },
+            "selected": { "id": "1130" },
+            "selection_policy": { "id": "1131" }
+          },
+          "id": "1070",
+          "type": "ColumnDataSource"
+        },
+        { "attributes": {}, "id": "1025", "type": "HelpTool" },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.1 },
+            "fill_color": { "value": "#404387" },
+            "line_alpha": { "value": 0.1 },
+            "line_color": { "value": "#1f77b4" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1048",
+          "type": "VBar"
+        },
+        { "attributes": {}, "id": "1136", "type": "Selection" },
+        {
+          "attributes": {
+            "label": { "value": "80 - 90" },
+            "renderers": [{ "id": "1086" }]
+          },
+          "id": "1109",
+          "type": "LegendItem"
+        },
+        {
+          "attributes": {
+            "active_drag": "auto",
+            "active_inspect": "auto",
+            "active_multi": null,
+            "active_scroll": "auto",
+            "active_tap": "auto",
+            "tools": [
+              { "id": "1020" },
+              { "id": "1021" },
+              { "id": "1022" },
+              { "id": "1023" },
+              { "id": "1024" },
+              { "id": "1025" }
+            ]
+          },
+          "id": "1027",
+          "type": "Toolbar"
+        },
+        {
+          "attributes": {
+            "data": {
+              "top": [
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                0.0028011204481792717,
+                "NaN",
+                0.036414565826330535,
+                0.03081232492997199,
+                0.056022408963585436,
+                0.06722689075630252,
+                0.09803921568627451,
+                0.09803921568627451,
+                0.11764705882352941,
+                0.12605042016806722,
+                0.08403361344537816,
+                0.09243697478991597,
+                0.0700280112044818,
+                0.05322128851540616,
+                0.03081232492997199,
+                0.014005602240896359,
+                0.011204481792717087,
+                0.008403361344537815,
+                0.0028011204481792717
+              ],
+              "x": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24"
+              ]
+            },
+            "selected": { "id": "1138" },
+            "selection_policy": { "id": "1139" }
+          },
+          "id": "1094",
+          "type": "ColumnDataSource"
+        },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.05 },
+            "fill_color": { "value": "#22A784" },
+            "line_alpha": { "value": 0.05 },
+            "line_color": { "value": "#22A784" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1073",
+          "type": "VBar"
+        },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.05 },
+            "fill_color": { "value": "#FDE724" },
+            "line_alpha": { "value": 0.05 },
+            "line_color": { "value": "#FDE724" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1097",
+          "type": "VBar"
+        },
+        {
+          "attributes": {
+            "data_source": { "id": "1052" },
+            "glyph": { "id": "1053" },
+            "hover_glyph": null,
+            "muted": true,
+            "muted_glyph": { "id": "1055" },
+            "nonselection_glyph": { "id": "1054" },
+            "selection_glyph": null,
+            "view": { "id": "1057" }
+          },
+          "id": "1056",
+          "type": "GlyphRenderer"
+        },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.05 },
+            "fill_color": { "value": "#345E8D" },
+            "line_alpha": { "value": 0.05 },
+            "line_color": { "value": "#345E8D" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1055",
+          "type": "VBar"
+        },
+        { "attributes": {}, "id": "1137", "type": "UnionRenderers" },
+        {
+          "attributes": {
+            "factors": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "12",
+              "13",
+              "14",
+              "15",
+              "16",
+              "17",
+              "18",
+              "19",
+              "20",
+              "21",
+              "22",
+              "23",
+              "24"
+            ]
+          },
+          "id": "1005",
+          "type": "FactorRange"
+        },
+        {
+          "attributes": {
+            "click_policy": "mute",
+            "items": [
+              { "id": "1101" },
+              { "id": "1102" },
+              { "id": "1103" },
+              { "id": "1104" },
+              { "id": "1105" },
+              { "id": "1106" },
+              { "id": "1107" },
+              { "id": "1108" },
+              { "id": "1109" },
+              { "id": "1110" },
+              { "id": "1111" }
+            ],
+            "location": [0, 30]
+          },
+          "id": "1100",
+          "type": "Legend"
+        },
+        {
+          "attributes": {
+            "data": {
+              "top": [
+                0.007597895967270602,
+                0.0054446460980036296,
+                0.003998892614352948,
+                0.00387584976468055,
+                0.004429542588206343,
+                0.008859085176412686,
+                0.02076348088221723,
+                0.04032729398012858,
+                0.05718416438524716,
+                0.05364668245716571,
+                0.05727644652250146,
+                0.06632009597342274,
+                0.07256452059429697,
+                0.07496385616290874,
+                0.07853209880340829,
+                0.09172844443077302,
+                0.08849856962687255,
+                0.08120828078378295,
+                0.061644467685871604,
+                0.04001968685594758,
+                0.027592359039035345,
+                0.02476237349657018,
+                0.017441323941062476,
+                0.011319942169860655
+              ],
+              "x": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24"
+              ]
+            },
+            "selected": { "id": "1132" },
+            "selection_policy": { "id": "1133" }
+          },
+          "id": "1076",
+          "type": "ColumnDataSource"
+        },
+        { "attributes": {}, "id": "1121", "type": "UnionRenderers" },
+        {
+          "attributes": {
+            "axis_label": "Hour of the Day",
+            "formatter": { "id": "1113" },
+            "ticker": { "id": "1014" }
+          },
+          "id": "1013",
+          "type": "CategoricalAxis"
+        },
+        {
+          "attributes": {
+            "data_source": { "id": "1076" },
+            "glyph": { "id": "1077" },
+            "hover_glyph": null,
+            "muted": true,
+            "muted_glyph": { "id": "1079" },
+            "nonselection_glyph": { "id": "1078" },
+            "selection_glyph": null,
+            "view": { "id": "1081" }
+          },
+          "id": "1080",
+          "type": "GlyphRenderer"
+        },
+        {
+          "attributes": { "source": { "id": "1088" } },
+          "id": "1093",
+          "type": "CDSView"
+        },
+        { "attributes": {}, "id": "1138", "type": "Selection" },
+        { "attributes": { "end": 0.15 }, "id": "1007", "type": "Range1d" },
+        {
+          "attributes": {
+            "data_source": { "id": "1046" },
+            "glyph": { "id": "1047" },
+            "hover_glyph": null,
+            "muted": true,
+            "muted_glyph": { "id": "1049" },
+            "nonselection_glyph": { "id": "1048" },
+            "selection_glyph": null,
+            "view": { "id": "1051" }
+          },
+          "id": "1050",
+          "type": "GlyphRenderer"
+        },
+        {
+          "attributes": { "source": { "id": "1094" } },
+          "id": "1099",
+          "type": "CDSView"
+        },
+        {
+          "attributes": { "source": { "id": "1046" } },
+          "id": "1051",
+          "type": "CDSView"
+        },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.1 },
+            "fill_color": { "value": "#345E8D" },
+            "line_alpha": { "value": 0.1 },
+            "line_color": { "value": "#1f77b4" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1054",
+          "type": "VBar"
+        },
+        { "attributes": {}, "id": "1139", "type": "UnionRenderers" },
+        { "attributes": {}, "id": "1011", "type": "LinearScale" },
+        {
+          "attributes": {
+            "data_source": { "id": "1070" },
+            "glyph": { "id": "1071" },
+            "hover_glyph": null,
+            "muted": true,
+            "muted_glyph": { "id": "1073" },
+            "nonselection_glyph": { "id": "1072" },
+            "selection_glyph": null,
+            "view": { "id": "1075" }
+          },
+          "id": "1074",
+          "type": "GlyphRenderer"
+        },
+        {
+          "attributes": {
+            "data": {
+              "top": [
+                0.02154737432255653,
+                0.019061857596710894,
+                0.01746402541581013,
+                0.014062792001495048,
+                0.011680059801906185,
+                0.01159596337133246,
+                0.021285740982993833,
+                0.044253410577462154,
+                0.05533545131751075,
+                0.04384227247243506,
+                0.039216968790880206,
+                0.0454307606054943,
+                0.050766211923005046,
+                0.05617641562324799,
+                0.06239955148570361,
+                0.07360306484769202,
+                0.07654643991777238,
+                0.08028405905438236,
+                0.0688002242571482,
+                0.05086899644926182,
+                0.03719865445711082,
+                0.03474116987478976,
+                0.035105587740609234,
+                0.028732947112689217
+              ],
+              "x": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24"
+              ]
+            },
+            "selected": { "id": "1124" },
+            "selection_policy": { "id": "1125" }
+          },
+          "id": "1052",
+          "type": "ColumnDataSource"
+        },
+        { "attributes": {}, "id": "1118", "type": "Selection" },
+        {
+          "attributes": { "source": { "id": "1070" } },
+          "id": "1075",
+          "type": "CDSView"
+        },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.1 },
+            "fill_color": { "value": "#FDE724" },
+            "line_alpha": { "value": 0.1 },
+            "line_color": { "value": "#1f77b4" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1096",
+          "type": "VBar"
+        },
+        {
+          "attributes": {
+            "below": [{ "id": "1013" }],
+            "center": [{ "id": "1015" }, { "id": "1019" }],
+            "left": [{ "id": "1016" }, { "id": "1100" }],
+            "plot_height": 450,
+            "plot_width": 1200,
+            "renderers": [
+              { "id": "1038" },
+              { "id": "1044" },
+              { "id": "1050" },
+              { "id": "1056" },
+              { "id": "1062" },
+              { "id": "1068" },
+              { "id": "1074" },
+              { "id": "1080" },
+              { "id": "1086" },
+              { "id": "1092" },
+              { "id": "1098" }
+            ],
+            "title": { "id": "1003" },
+            "toolbar": { "id": "1027" },
+            "toolbar_location": null,
+            "x_range": { "id": "1005" },
+            "x_scale": { "id": "1009" },
+            "y_range": { "id": "1007" },
+            "y_scale": { "id": "1011" }
+          },
+          "id": "1002",
+          "subtype": "Figure",
+          "type": "Plot"
+        },
+        { "attributes": {}, "id": "1009", "type": "CategoricalScale" },
+        { "attributes": {}, "id": "1119", "type": "UnionRenderers" },
+        {
+          "attributes": { "source": { "id": "1052" } },
+          "id": "1057",
+          "type": "CDSView"
+        },
+        {
+          "attributes": {
+            "fill_color": { "value": "#345E8D" },
+            "line_color": { "value": "#1f77b4" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1053",
+          "type": "VBar"
+        },
+        {
+          "attributes": {
+            "fill_color": { "value": "#42BE71" },
+            "line_color": { "value": "#1f77b4" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1077",
+          "type": "VBar"
+        },
+        { "attributes": {}, "id": "1122", "type": "Selection" },
+        {
+          "attributes": { "axis": { "id": "1013" }, "ticker": null },
+          "id": "1015",
+          "type": "Grid"
+        },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.05 },
+            "fill_color": { "value": "#42BE71" },
+            "line_alpha": { "value": 0.05 },
+            "line_color": { "value": "#42BE71" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1079",
+          "type": "VBar"
+        },
+        {
+          "attributes": {
+            "fill_alpha": { "value": 0.05 },
+            "fill_color": { "value": "#404387" },
+            "line_alpha": { "value": 0.05 },
+            "line_color": { "value": "#404387" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1049",
+          "type": "VBar"
+        },
+        { "attributes": {}, "id": "1014", "type": "CategoricalTicker" },
+        {
+          "attributes": {
+            "fill_color": { "value": "#29788E" },
+            "line_color": { "value": "#1f77b4" },
+            "top": { "field": "top" },
+            "width": { "value": 0.7 },
+            "x": { "field": "x" }
+          },
+          "id": "1059",
+          "type": "VBar"
+        },
+        { "attributes": {}, "id": "1120", "type": "Selection" },
+        {
+          "attributes": {
+            "data_source": { "id": "1094" },
+            "glyph": { "id": "1095" },
+            "hover_glyph": null,
+            "muted": true,
+            "muted_glyph": { "id": "1097" },
+            "nonselection_glyph": { "id": "1096" },
+            "selection_glyph": null,
+            "view": { "id": "1099" }
+          },
+          "id": "1098",
+          "type": "GlyphRenderer"
+        }
+      ],
+      "root_ids": ["1002"]
+    },
+    "title": "",
+    "version": "2.0.2"
+  }
+}

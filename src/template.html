@@ -32,22 +32,93 @@
   </body>
   <script
     type="text/javascript"
-    src="https://cdn.bokeh.org/bokeh/release/bokeh-2.0.1.min.js"
+    src="https://cdn.bokeh.org/bokeh/release/bokeh-2.0.2.min.js"
   ></script>
   <script
+    defer
+    async
     type="text/javascript"
-    src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.0.1.min.js"
+    src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.0.2.min.js"
   ></script>
   <script
+    defer
+    async
     type="text/javascript"
-    src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-2.0.1.min.js"
+    src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-2.0.2.min.js"
   ></script>
   <script
+    defer
+    async
     type="text/javascript"
-    src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-2.0.1.min.js"
+    src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-2.0.2.min.js"
   ></script>
   <script
+    defer
+    async
     type="text/javascript"
-    src="https://cdn.bokeh.org/bokeh/release/bokeh-api-2.0.1.min.js"
+    src="https://cdn.bokeh.org/bokeh/release/bokeh-api-2.0.2.min.js"
   ></script>
+  <style>
+    .bk.bk-headers {
+      display: flex;
+      text-align: center;
+    }
+    .bk.bk-tab {
+      background: #fff;
+      border-radius: 2px;
+      padding: 4px;
+      @media all and (max-width: 480px) {
+        max-width: 100%;
+        left: 0;
+      }
+    }
+    .bk.bk-tab.bk-active {
+      text-decoration: underline;
+      text-decoration-color: #38b2ac;
+    }
+
+    .bk.bk-tooltip.bk-tooltip-arrow {
+      padding-left: 7%;
+      padding-top: 5%;
+    }
+    canvas.bk-canvas {
+      position: absolute !important;
+      width: 100% !important;
+      height: 100% !important;
+      margin: auto;
+    }
+    @media (max-width: 639px) {
+      .bk,
+      canvas.bk-canvas {
+        max-width: 426px;
+      }
+    }
+    @media (min-width: 640px) {
+      .bk,
+      canvas.bk-canvas {
+        max-width: 526px;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .bk,
+      canvas.bk-canvas {
+        max-width: 728px;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .bk,
+      canvas.bk-canvas {
+        max-width: 922px;
+      }
+    }
+
+    @media (min-width: 1280px) {
+      .bk,
+      canvas.bk-canvas {
+        max-width: 1100px;
+      }
+    }
+  </style>
 </html>

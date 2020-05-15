@@ -9,18 +9,57 @@ import { terser } from "rollup-plugin-terser";
 import typescript from "rollup-plugin-typescript2";
 import config from "sapper/config/rollup.js";
 import pkg from "./package.json";
-import * as svelteConfig from "./svelte.config";
+
+const svelteConfig = require("./svelte.config");
 
 const { preprocess } = svelteConfig;
+
 const mode = process.env.NODE_ENV;
 const dev = mode === "development";
 const legacy = !!process.env.SAPPER_LEGACY_BUILD;
-
+const svgoConfig = {
+  plugins: [
+    { prefixIds: true },
+    { cleanupAttrs: true },
+    { inlineStyles: true },
+    { removeDoctype: true },
+    { removeXMLProcInst: true },
+    { removeComments: true },
+    { removeMetadata: true },
+    { removeTitle: true },
+    { removeDesc: true },
+    { removeUselessDefs: true },
+    { removeEditorsNSData: true },
+    { removeEmptyAttrs: true },
+    { removeHiddenElems: true },
+    { removeEmptyText: true },
+    { removeEmptyContainers: true },
+    { removeViewBox: false },
+    { removeDimensions: true },
+    { cleanupEnableBackground: true },
+    { minifyStyles: true },
+    { convertStyleToAttrs: true },
+    { convertColors: true },
+    { convertPathData: true },
+    { convertTransform: true },
+    { removeUnknownsAndDefaults: true },
+    { removeNonInheritableGroupAttrs: true },
+    { removeUselessStrokeAndFill: true },
+    { removeUnusedNS: true },
+    { cleanupIDs: true },
+    { cleanupNumericValues: true },
+    { moveElemsAttrsToGroup: true },
+    { moveGroupAttrsToElems: true },
+    { collapseGroups: true },
+    { mergePaths: true },
+    { convertShapeToPath: true },
+    { convertEllipseToCircle: true },
+  ],
+};
 const onwarn = (warning, onwarn) =>
   (warning.code === "CIRCULAR_DEPENDENCY" &&
     /[/\\]@sapper[/\\]/.test(warning.message)) ||
   onwarn(warning);
-
 export default {
   client: {
     input: config.client.input().replace(/\.js$/, ".ts"),
@@ -31,7 +70,7 @@ export default {
         "process.env.NODE_ENV": JSON.stringify(mode),
       }),
       json(),
-      svgo(),
+      svgo(svgoConfig),
       svelte({
         preprocess,
         dev,
@@ -87,7 +126,7 @@ export default {
         "process.env.NODE_ENV": JSON.stringify(mode),
       }),
       json(),
-      svgo(),
+      svgo(svgoConfig),
       svelte({
         preprocess,
         generate: "ssr",
