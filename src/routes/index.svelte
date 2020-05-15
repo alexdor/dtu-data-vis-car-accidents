@@ -72,7 +72,7 @@
 
 <h2>Accident prediction</h2>
 <p>
-  In order to predict upcoming accidents a random forest was training. The model
+  In order to predict upcoming accidents a random forest was trained. The model
   produced the following results for the upcoming 6 days.
 </p>
 <ML />
