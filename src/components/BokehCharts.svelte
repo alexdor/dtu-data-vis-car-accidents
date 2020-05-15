@@ -18,5 +18,7 @@
     data={crashes} />
   <Plot
     title="Interactive analysis of different aspects of the dataset"
+    description="Don't forget to click the different tabs so you can explore all
+    the visualizations"
     data={tabs} />
 </section>

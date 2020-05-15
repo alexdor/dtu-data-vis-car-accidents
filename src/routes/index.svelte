@@ -28,7 +28,14 @@
   everyday use we would like to compare this data to lower level schools where
   younger kids tend to walk to and from school on their own, and possibly
   identify the safest schools. The dataset also allows us to look at how many
-  kids are hurt near each school.
+  kids are hurt near each school. You can view the implementation of the idea in
+  the companion notebook
+  <a
+    href="https://nbviewer.jupyter.org/github/alexdor/dtu-data-vis-car-accidents/blob/master/Final%20Notebook.ipynb"
+    target="_blank">
+    here
+  </a>
+  .
 </p>
 <h2>Preliminary statistics</h2>
 <Intro />

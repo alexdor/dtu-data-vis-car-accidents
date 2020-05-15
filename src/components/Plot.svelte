@@ -26,12 +26,15 @@
   .loader {
     @apply text-center;
   }
+  .desc {
+    @apply m-4;
+  }
 </style>
 
 <section>
   <h3>{title}</h3>
   {#if description}
-    <p>{description}</p>
+    <p class="desc">{description}</p>
   {/if}
   {#if loading}
     <div class="center">

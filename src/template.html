@@ -59,22 +59,38 @@
     src="https://cdn.bokeh.org/bokeh/release/bokeh-api-2.0.2.min.js"
   ></script>
   <style>
+    .bk {
+      overflow-x: hidden;
+    }
+    .bk.bk.bk-headers-wrapper {
+      display: flex;
+      justify-content: center;
+    }
     .bk.bk-headers {
       display: flex;
       text-align: center;
+      overflow-y: hidden;
     }
+
     .bk.bk-tab {
-      background: #fff;
-      border-radius: 2px;
-      padding: 4px;
-      @media all and (max-width: 480px) {
-        max-width: 100%;
-        left: 0;
-      }
+      position: relative;
+      display: block;
+      height: 3em;
+      padding: 0 1.618em;
+      background: #2b6cb0;
+      border-right: 0.125rem solid #2c5282;
+      color: #fff;
+      cursor: pointer;
+      top: 0;
+    }
+    .bk-tab:hover {
+      top: 0.25rem;
+      transition: top 0.25s;
     }
     .bk.bk-tab.bk-active {
-      text-decoration: underline;
-      text-decoration-color: #38b2ac;
+      background: #fff;
+      color: #2c3e50;
+      border-right: 0;
     }
 
     .bk.bk-tooltip.bk-tooltip-arrow {

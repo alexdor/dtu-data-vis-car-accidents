@@ -23,7 +23,7 @@
   .fullscreen {
     @apply bg-white cursor-pointer;
     transform: scale(1.2);
-    z-index: 2;
+    z-index: 5;
   }
   .desc {
     @apply text-gray-700 text-base cursor-pointer;

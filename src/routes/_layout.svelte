@@ -27,7 +27,6 @@
   }
   main {
     width: 100%;
-    overflow-x: hidden;
     @apply bg-white p-4 mx-auto;
   }
 </style>
