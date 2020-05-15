@@ -1,4 +1,5 @@
 import commonjs from "@rollup/plugin-commonjs";
+import image from "@rollup/plugin-image";
 import json from "@rollup/plugin-json";
 import resolve from "@rollup/plugin-node-resolve";
 import replace from "@rollup/plugin-replace";
@@ -70,6 +71,7 @@ export default {
         "process.env.NODE_ENV": JSON.stringify(mode),
       }),
       json(),
+      image({ exclude: "**/*.svg" }),
       svgo(svgoConfig),
       svelte({
         preprocess,
@@ -126,6 +128,7 @@ export default {
         "process.env.NODE_ENV": JSON.stringify(mode),
       }),
       json(),
+      image({ exclude: "**/*.svg" }),
       svgo(svgoConfig),
       svelte({
         preprocess,

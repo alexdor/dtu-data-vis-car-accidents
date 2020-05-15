@@ -22,7 +22,7 @@
     {
       title: "Hours of accidents",
       description:
-        "The KDE plots the shows how many accidents happen spaced over the duration of 24 hours. We see three notable spikes. Fistly 7-9 o'clock which is when a large majority of the working populations will set of to leave their kids at school and/or drive to work. The next spike of the day is 17-19 o'clock which in turn is when people return from work. Lastly we have the time at 12 o'clock at night, which would clearly indicate the partying population starting to move around.",
+        "This KDE shows how many accidents happen spaced over the duration of 24 hours. There are three notable spikes. Fistly 7-9 o'clock which is when a large majority of the working populations will set of to leave their kids at school and/or drive to work. The next spike of the day is 17-19 o'clock which in turn is when people return from work. Lastly we have the time at 12 o'clock at night, which would clearly indicate the partying population starting to move around.",
       svg: kdeHoursOfAccidents
     },
     {
