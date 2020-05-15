@@ -53,12 +53,12 @@
 <Heatmap
   title="Crashes compare too schools"
   description="The map below indicated the areas with most accidents. It is
-  found that there are clearly areas more at risk than others. This is the age
+  found that there are clear areas more at risk than others. This is the age
   group we are most interested in, and the map shows that the accidents are
-  centreds around the schools, with highest dentities where there are also the
-  highest densities of schools. The red circles highlight the areas where there
-  are elementrary schools but very low if any densities of accidents. These are
-  the areas which would according to this data be the safest for the kids to
+  centered around the schools, with the highest densities where there are also
+  the highest densities of schools. The red circles highlight the areas where
+  there are elementary schools but very low if any densities of accidents. These
+  are the areas that would according to this data be the safest for the kids to
   independently go to school in."
   src="https://rawcdn.githack.com/alexdor/dtu-data-vis-car-accidents/a36b87382ac17220dbdfbd4efd549e67885f1798/src/plot_data/follium/es_with_circles.html" />
 
@@ -67,7 +67,7 @@
   title="Heatmap movie"
   withConsent={true}
   description="This heatmap movie shows the locations of accidents during 24
-  hours, in all area of chicago. This heatmap is cpu expensive, click it to
+  hours, in all areas of Chicago. This heatmap is CPU expensive, click it to
   start interacting with it." />
 
 <h2>Accident prediction</h2>
