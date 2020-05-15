@@ -23,6 +23,9 @@
   .center {
     @apply flex justify-center flex-col items-center;
   }
+  .loader {
+    @apply text-center;
+  }
 </style>
 
 <section>
@@ -33,8 +36,10 @@
   {#if loading}
     <div class="center">
       <Loader />
-      <p>
-        Loading Bokeh library, if this takes too long please refresh the page
+      <p class="loader">
+        Loading Bokeh library
+        <br />
+        If this takes too long please refresh the page
       </p>
     </div>
   {/if}

@@ -6,9 +6,8 @@
 
 <style>
   h2 {
-    @apply text-3xl;
+    @apply text-3xl mt-8;
     text-align: center;
-    margin: 0 auto;
   }
   p {
     @apply max-w-2xl p-4 mx-auto text-base text-justify my-4;
@@ -36,8 +35,11 @@
 <h2>Interactive plots</h2>
 <BokehCharts />
 
-<h2>Try to predict crashes</h2>
-<p>By training a random forest we produced the following results.</p>
+<h2>Try to predict accidents</h2>
+<p>
+  In order to predict upcoming accidents a random forest was training. The model
+  produced the following results for the upcoming 6 days.
+</p>
 <ML />
 
 <div>

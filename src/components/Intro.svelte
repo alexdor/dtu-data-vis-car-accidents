@@ -14,8 +14,9 @@
       svg: crashDayOfWeek
     },
     {
-      title: "Crashes by the hour",
-      description: "The accidents distributed over the hours.",
+      title: "Crashes by the school age",
+      description:
+        "The number of accidents that included a pedestrian under the age of 18, distributed over to the school level of the pedestrian.",
       svg: crashHour
     },
     {
@@ -39,7 +40,12 @@
 
 <style>
   section {
-    @apply grid grid-cols-2 gap-4;
+    @apply grid grid-cols-1 gap-4;
+  }
+  @screen lg {
+    section {
+      @apply grid-cols-2;
+    }
   }
 </style>
 
