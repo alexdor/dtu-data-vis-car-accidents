@@ -35,7 +35,13 @@
     target="_blank">
     here
   </a>
-  .
+  . Don't forget to download the data from
+  <a
+    href="https://github.com/alexdor/dtu-data-vis-car-accidents/tree/master/Data"
+    target="_blank">
+    here
+  </a>
+  if you intent to follow along.
 </p>
 <h2>Preliminary statistics</h2>
 <Intro />
@@ -57,5 +63,11 @@
       target="_blank">
       https://nbviewer.jupyter.org/github/alexdor/dtu-data-vis-car-accidents/blob/master/Final%20Notebook.ipynb
     </a>
+    . You can also find the data we used
+    <a
+      href="https://github.com/alexdor/dtu-data-vis-car-accidents/tree/master/Data">
+      here
+    </a>
+    .
   </h4>
 </div>
