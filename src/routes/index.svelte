@@ -87,7 +87,14 @@
     </a>
     . You can also find the data we used
     <a
+      target="_blank"
       href="https://github.com/alexdor/dtu-data-vis-car-accidents/tree/master/Data">
+      here
+    </a>
+    and our github repo
+    <a
+      target="_blank"
+      href="https://github.com/alexdor/dtu-data-vis-car-accidents/">
       here
     </a>
     .
