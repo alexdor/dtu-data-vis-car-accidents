@@ -25,10 +25,11 @@
 <h2>The idea</h2>
 <p>
   The idea is to investigate the trends in car accidents, relating to causes and
-  conditions. To relate the information to a more everyday use we would like to
-  compare this data to lower level schools where younger kids tend to walk to
-  and from school on their own, and possibly identify the safest schools. The
-  dataset also allows us to look at how many kids are hurt near each school.
+  conditions in the city of Chicago. To relate the information to a more
+  everyday use we would like to compare this data to lower level schools where
+  younger kids tend to walk to and from school on their own, and possibly
+  identify the safest schools. The dataset also allows us to look at how many
+  kids are hurt near each school.
 </p>
 <h2>Preliminary statistics</h2>
 <Intro />
