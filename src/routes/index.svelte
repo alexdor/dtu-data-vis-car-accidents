@@ -12,6 +12,9 @@
   p {
     @apply max-w-2xl p-4 mx-auto text-base text-justify my-4;
   }
+  a {
+    @apply text-blue-400;
+  }
 </style>
 
 <svelte:head>
@@ -30,3 +33,14 @@
 <Intro />
 <h2>Interactive plots</h2>
 <BokehCharts />
+
+<div>
+  <h4>
+    Don't forget to checkout our notebook at
+    <a
+      href="https://nbviewer.jupyter.org/github/alexdor/dtu-data-vis-car-accidents/blob/master/Final%20Notebook.ipynb"
+      target="_blank">
+      https://nbviewer.jupyter.org/github/alexdor/dtu-data-vis-car-accidents/blob/master/Final%20Notebook.ipynb
+    </a>
+  </h4>
+</div>
