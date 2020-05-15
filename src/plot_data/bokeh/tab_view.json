@@ -8,7 +8,6 @@
           "attributes": {
             "tabs": [
               { "id": "1461" },
-              { "id": "1503" },
               { "id": "1545" },
               { "id": "1587" },
               { "id": "1652" }
@@ -52,14 +51,6 @@
         },
         { "attributes": {}, "id": "1702", "type": "BasicTickFormatter" },
         { "attributes": {}, "id": "1719", "type": "UnionRenderers" },
-        {
-          "attributes": {
-            "child": { "id": "1464" },
-            "title": "Crash type per day of week"
-          },
-          "id": "1503",
-          "type": "Panel"
-        },
         {
           "attributes": {
             "items": [{ "id": "1634" }, { "id": "1649" }],
@@ -269,28 +260,6 @@
         { "attributes": {}, "id": "1610", "type": "SaveTool" },
         {
           "attributes": {
-            "factors": [
-              ["Monday", "INJURY AND / OR TOW DUE TO CRASH"],
-              ["Monday", "NO INJURY / DRIVE AWAY"],
-              ["Tuesday", "INJURY AND / OR TOW DUE TO CRASH"],
-              ["Tuesday", "NO INJURY / DRIVE AWAY"],
-              ["Wednesday", "INJURY AND / OR TOW DUE TO CRASH"],
-              ["Wednesday", "NO INJURY / DRIVE AWAY"],
-              ["Thursday", "INJURY AND / OR TOW DUE TO CRASH"],
-              ["Thursday", "NO INJURY / DRIVE AWAY"],
-              ["Friday", "INJURY AND / OR TOW DUE TO CRASH"],
-              ["Friday", "NO INJURY / DRIVE AWAY"],
-              ["Saturday", "INJURY AND / OR TOW DUE TO CRASH"],
-              ["Saturday", "NO INJURY / DRIVE AWAY"],
-              ["Sunday", "INJURY AND / OR TOW DUE TO CRASH"],
-              ["Sunday", "NO INJURY / DRIVE AWAY"]
-            ]
-          },
-          "id": "1463",
-          "type": "FactorRange"
-        },
-        {
-          "attributes": {
             "active_drag": "auto",
             "active_inspect": "auto",
             "active_multi": null,
@@ -458,25 +427,6 @@
           },
           "id": "1637",
           "type": "Line"
-        },
-        {
-          "attributes": {
-            "below": [{ "id": "1474" }],
-            "center": [{ "id": "1476" }, { "id": "1480" }],
-            "left": [{ "id": "1477" }],
-            "plot_height": 800,
-            "plot_width": 1200,
-            "renderers": [{ "id": "1499" }],
-            "title": { "id": "1465" },
-            "toolbar": { "id": "1488" },
-            "x_range": { "id": "1463" },
-            "x_scale": { "id": "1470" },
-            "y_range": { "id": "1468" },
-            "y_scale": { "id": "1472" }
-          },
-          "id": "1464",
-          "subtype": "Figure",
-          "type": "Plot"
         },
         {
           "attributes": { "text": "Crash type per month" },
