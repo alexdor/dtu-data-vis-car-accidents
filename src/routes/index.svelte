@@ -1,5 +1,6 @@
 <script>
   import Intro from "../components/Intro.svelte";
+  import ML from "../components/ML.svelte";
   import BokehCharts from "../components/BokehCharts.svelte";
 </script>
 
@@ -33,6 +34,10 @@
 <Intro />
 <h2>Interactive plots</h2>
 <BokehCharts />
+
+<h2>Try to predict crashes</h2>
+<p>By training a random forest we produced the following results.</p>
+<ML />
 
 <div>
   <h4>
